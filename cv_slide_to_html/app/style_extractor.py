@@ -188,7 +188,7 @@ def apply_style_overrides(block: dict, style: dict) -> dict:
         logo_w = int(bbox["width"])
 
         # lebih konservatif supaya tidak meledak
-        style["font_size"] = max(34, min(58, int(logo_h * 0.42)))
+        style["font_size"] = max(style["font_size"], 250)
         style["font_weight"] = "700"
         style["color"] = "rgb(0, 132, 224)"
         style["text_align"] = "left"

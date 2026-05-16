@@ -4,17 +4,53 @@ import cv2
 import numpy as np
 
 
-def should_skip_mask_for_block(block: dict) -> bool:
-    """
-    Jangan hapus PIS/logo dari background.
-    Fokus utama: OCR item-nya bagus dulu.
-    """
-    text = str(block.get("text", "")).strip().lower()
+def normalize_text(text: str) -> str:
+    return str(text).strip().lower()
 
-    if text == "pis":
-        return True
 
-    return False
+def is_pis_block(block: dict) -> bool:
+    text = normalize_text(block.get("text", ""))
+
+    return text in {
+        # "pis",
+        "qfpis",
+        "qpis",
+        "ofpis",
+        "pıs",
+    }
+
+
+def get_mask_bbox_from_block(block: dict, expand_x: int = 8, expand_y: int = 6):
+    """
+    Ambil koordinat mask dari raw_points kalau ada.
+    Kalau raw_points kosong, pakai bbox.
+    """
+    raw_points = block.get("raw_points", [])
+
+    if raw_points and len(raw_points) >= 4:
+        xs = [int(p[0]) for p in raw_points]
+        ys = [int(p[1]) for p in raw_points]
+
+        x1 = min(xs) - expand_x
+        y1 = min(ys) - expand_y
+        x2 = max(xs) + expand_x
+        y2 = max(ys) + expand_y
+
+        return x1, y1, x2, y2
+
+    bbox = block["bbox"]
+
+    x = int(bbox["x"])
+    y = int(bbox["y"])
+    w = int(bbox["width"])
+    h = int(bbox["height"])
+
+    x1 = x - expand_x
+    y1 = y - expand_y
+    x2 = x + w + expand_x
+    y2 = y + h + expand_y
+
+    return x1, y1, x2, y2
 
 
 def create_text_mask(
@@ -27,22 +63,28 @@ def create_text_mask(
     mask = np.zeros((h, w), dtype=np.uint8)
 
     for block in text_blocks:
-        if should_skip_mask_for_block(block):
-            continue
+        text = normalize_text(block.get("text", ""))
 
-        bbox = block["bbox"]
+        # PIS tetap ikut mask.
+        # Jangan ada continue untuk pis di sini.
+        x1, y1, x2, y2 = get_mask_bbox_from_block(
+            block,
+            expand_x=expand_x,
+            expand_y=expand_y,
+        )
 
-        x = int(bbox["x"])
-        y = int(bbox["y"])
-        bw = int(bbox["width"])
-        bh = int(bbox["height"])
+        x1 = max(0, x1)
+        y1 = max(0, y1)
+        x2 = min(w, x2)
+        y2 = min(h, y2)
 
-        x1 = max(0, x - expand_x)
-        y1 = max(0, y - expand_y)
-        x2 = min(w, x + bw + expand_x)
-        y2 = min(h, y + bh + expand_y)
-
-        cv2.rectangle(mask, (x1, y1), (x2, y2), 255, thickness=-1)
+        cv2.rectangle(
+            mask,
+            (x1, y1),
+            (x2, y2),
+            255,
+            thickness=-1,
+        )
 
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
     mask = cv2.dilate(mask, kernel, iterations=1)
