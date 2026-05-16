@@ -1,0 +1,384 @@
+[
+  {
+    "text": "pis",
+    "bbox": {
+      "x": 5069,
+      "y": 119,
+      "width": 300,
+      "height": 397
+    },
+    "confidence": 0.8,
+    "raw_points": [],
+    "style": {
+      "font_size": 46,
+      "font_weight": "700",
+      "color": "rgb(0, 132, 224)",
+      "background_color": "transparent",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.0,
+      "letter_spacing": "0px",
+      "white_space": "nowrap"
+    }
+  },
+  {
+    "text": "Portofolio Layanan Utama",
+    "bbox": {
+      "x": 294,
+      "y": 222,
+      "width": 2631,
+      "height": 290
+    },
+    "confidence": 0.985073502060196,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(0, 94, 158)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Cloud Computing",
+    "bbox": {
+      "x": 3979,
+      "y": 744,
+      "width": 1104,
+      "height": 198
+    },
+    "confidence": 0.9985229167233138,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(255, 255, 255)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Talent Development",
+    "bbox": {
+      "x": 575,
+      "y": 749,
+      "width": 1260,
+      "height": 198
+    },
+    "confidence": 0.9642248829240833,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(255, 255, 255)",
+      "background_color": "rgb(8, 56, 104)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Cyber Security",
+    "bbox": {
+      "x": 2399,
+      "y": 750,
+      "width": 932,
+      "height": 188
+    },
+    "confidence": 0.8951556429508846,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(255, 255, 255)",
+      "background_color": "rgb(8, 56, 104)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Program SEAL,",
+    "bbox": {
+      "x": 772,
+      "y": 1905,
+      "width": 873,
+      "height": 204
+    },
+    "confidence": 0.6682082633456995,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Penetration Testing,",
+    "bbox": {
+      "x": 2296,
+      "y": 1913,
+      "width": 1150,
+      "height": 188
+    },
+    "confidence": 0.8928521974965473,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Solusi end-to-end",
+    "bbox": {
+      "x": 4019,
+      "y": 1923,
+      "width": 1028,
+      "height": 149
+    },
+    "confidence": 0.9274909358281676,
+    "raw_points": [],
+    "style": {
+      "font_size": 107,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "dan Magang",
+    "bbox": {
+      "x": 1135,
+      "y": 2063,
+      "width": 726,
+      "height": 195
+    },
+    "confidence": 0.9800148904384708,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Security Operation",
+    "bbox": {
+      "x": 2331,
+      "y": 2068,
+      "width": 1069,
+      "height": 177
+    },
+    "confidence": 0.9956582986436898,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "transformasi digital",
+    "bbox": {
+      "x": 3981,
+      "y": 2069,
+      "width": 1104,
+      "height": 175
+    },
+    "confidence": 0.8688584349129894,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Talenesia,",
+    "bbox": {
+      "x": 556,
+      "y": 2071,
+      "width": 562,
+      "height": 153
+    },
+    "confidence": 0.9809341671381268,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Center, dan Digital",
+    "bbox": {
+      "x": 2339,
+      "y": 2208,
+      "width": 1061,
+      "height": 192
+    },
+    "confidence": 0.9031710048323885,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "untuk berbagai",
+    "bbox": {
+      "x": 4103,
+      "y": 2216,
+      "width": 865,
+      "height": 176
+    },
+    "confidence": 0.8289903761646761,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Hub Kemnaker untuk",
+    "bbox": {
+      "x": 615,
+      "y": 2223,
+      "width": 1184,
+      "height": 145
+    },
+    "confidence": 0.8384915631967841,
+    "raw_points": [],
+    "style": {
+      "font_size": 104,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "pengembangan",
+    "bbox": {
+      "x": 752,
+      "y": 2364,
+      "width": 897,
+      "height": 176
+    },
+    "confidence": 0.999994769250814,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Forensics.",
+    "bbox": {
+      "x": 2572,
+      "y": 2371,
+      "width": 580,
+      "height": 145
+    },
+    "confidence": 0.9710908122553662,
+    "raw_points": [],
+    "style": {
+      "font_size": 104,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "sektor industri.",
+    "bbox": {
+      "x": 4104,
+      "y": 2371,
+      "width": 858,
+      "height": 145
+    },
+    "confidence": 0.7632039749941717,
+    "raw_points": [],
+    "style": {
+      "font_size": 104,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "digital.",
+    "bbox": {
+      "x": 998,
+      "y": 2512,
+      "width": 395,
+      "height": 171
+    },
+    "confidence": 0.5316997062697927,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(8, 24, 24)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  }
+]

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clean Slide HTML</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #111827;
+      font-family: Arial, sans-serif;
+    }
+
+    .toolbar {
+      max-width: 5734px;
+      margin: 0 auto 16px auto;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .toolbar-title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .toolbar-note {
+      font-size: 13px;
+      color: #d1d5db;
+    }
+
+    .slide-wrapper {
+      width: 100%;
+      overflow: auto;
+    }
+
+    .slide {
+      position: relative;
+      width: 5734px;
+      height: 3200px;
+      margin: 0 auto;
+      
+        background-image: url("../../output/backgrounds/slide_2_bg_clean.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .text-layer {
+      position: absolute;
+      display: inline-block;
+      white-space: pre-line;
+      outline: none;
+      z-index: 2;
+      background: transparent;
+    }
+
+    .text-layer:hover {
+      outline: 2px dashed rgba(255, 0, 0, 0.60);
+      cursor: text;
+    }
+
+    .text-layer:focus {
+      outline: 3px solid rgba(59, 130, 246, 0.9);
+      background-color: rgba(255, 255, 255, 0.25);
+      color: inherit;
+    }
+
+    @media (max-width: 5734px) {
+      .slide {
+        transform: scale(calc((100vw - 48px) / 5734));
+        transform-origin: top left;
+        margin: 0;
+      }
+
+      .slide-wrapper {
+        height: calc(3200px * ((100vw - 48px) / 5734));
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <div class="toolbar-title">Editable Slide HTML</div>
+    <div class="toolbar-note">Background dipertahankan, hanya teks yang dibuat editable.</div>
+  </div>
+
+  <div class="slide-wrapper">
+    <div class="slide">
+      
+        <span
+          class="text-layer"
+          data-index="1"
+          contenteditable="true"
+          style="
+            left: 4865px;
+            top: 270px;
+            width: 277px;
+            min-height: 369px;
+            font-size: 46px;
+            color: rgb(0, 132, 224);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.0;
+            letter-spacing: 0px;
+            white-space: nowrap;
+          "
+        >pis</span>
+        
+        <span
+          class="text-layer"
+          data-index="2"
+          contenteditable="true"
+          style="
+            left: 395px;
+            top: 297px;
+            width: 2677px;
+            min-height: 366px;
+            font-size: 110px;
+            color: rgb(0, 94, 158);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Tentang Perusahaan</span>
+        
+        <span
+          class="text-layer"
+          data-index="3"
+          contenteditable="true"
+          style="
+            left: 4001px;
+            top: 1745px;
+            width: 1116px;
+            min-height: 207px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Tim 41 karyawan</span>
+        
+        <span
+          class="text-layer"
+          data-index="4"
+          contenteditable="true"
+          style="
+            left: 582px;
+            top: 1747px;
+            width: 1169px;
+            min-height: 165px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Berdiri 19 Juli 2071</span>
+        
+        <span
+          class="text-layer"
+          data-index="5"
+          contenteditable="true"
+          style="
+            left: 2265px;
+            top: 1749px;
+            width: 1199px;
+            min-height: 187px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Mengintegrasikan</span>
+        
+        <span
+          class="text-layer"
+          data-index="6"
+          contenteditable="true"
+          style="
+            left: 3889px;
+            top: 1894px;
+            width: 1333px;
+            min-height: 213px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >profesional muda di</span>
+        
+        <span
+          class="text-layer"
+          data-index="7"
+          contenteditable="true"
+          style="
+            left: 2294px;
+            top: 1898px;
+            width: 1132px;
+            min-height: 204px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >desain; riset; dan</span>
+        
+        <span
+          class="text-layer"
+          data-index="8"
+          contenteditable="true"
+          style="
+            left: 538px;
+            top: 1900px;
+            width: 1252px;
+            min-height: 205px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >di Malang, sebagai</span>
+        
+        <span
+          class="text-layer"
+          data-index="9"
+          contenteditable="true"
+          style="
+            left: 4077px;
+            top: 2059px;
+            width: 961px;
+            min-height: 204px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >IT, desain; dan</span>
+        
+        <span
+          class="text-layer"
+          data-index="10"
+          contenteditable="true"
+          style="
+            left: 610px;
+            top: 2065px;
+            width: 1115px;
+            min-height: 208px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >PT Link Apisindo</span>
+        
+        <span
+          class="text-layer"
+          data-index="11"
+          contenteditable="true"
+          style="
+            left: 2201px;
+            top: 2068px;
+            width: 1318px;
+            min-height: 196px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >teknologi mutakhir.</span>
+        
+        <span
+          class="text-layer"
+          data-index="12"
+          contenteditable="true"
+          style="
+            left: 4198px;
+            top: 2235px;
+            width: 728px;
+            min-height: 198px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >videografi.</span>
+        
+        <span
+          class="text-layer"
+          data-index="13"
+          contenteditable="true"
+          style="
+            left: 941px;
+            top: 2240px;
+            width: 456px;
+            min-height: 165px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Media.</span>
+        
+    </div>
+  </div>
+</body>
+</html>

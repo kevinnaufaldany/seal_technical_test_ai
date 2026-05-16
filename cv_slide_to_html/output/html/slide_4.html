@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clean Slide HTML</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #111827;
+      font-family: Arial, sans-serif;
+    }
+
+    .toolbar {
+      max-width: 5734px;
+      margin: 0 auto 16px auto;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .toolbar-title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .toolbar-note {
+      font-size: 13px;
+      color: #d1d5db;
+    }
+
+    .slide-wrapper {
+      width: 100%;
+      overflow: auto;
+    }
+
+    .slide {
+      position: relative;
+      width: 5734px;
+      height: 3200px;
+      margin: 0 auto;
+      
+        background-image: url("../../output/backgrounds/slide_4_bg_clean.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .text-layer {
+      position: absolute;
+      display: inline-block;
+      white-space: pre-line;
+      outline: none;
+      z-index: 2;
+      background: transparent;
+    }
+
+    .text-layer:hover {
+      outline: 2px dashed rgba(255, 0, 0, 0.60);
+      cursor: text;
+    }
+
+    .text-layer:focus {
+      outline: 3px solid rgba(59, 130, 246, 0.9);
+      background-color: rgba(255, 255, 255, 0.25);
+      color: inherit;
+    }
+
+    @media (max-width: 5734px) {
+      .slide {
+        transform: scale(calc((100vw - 48px) / 5734));
+        transform-origin: top left;
+        margin: 0;
+      }
+
+      .slide-wrapper {
+        height: calc(3200px * ((100vw - 48px) / 5734));
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <div class="toolbar-title">Editable Slide HTML</div>
+    <div class="toolbar-note">Background dipertahankan, hanya teks yang dibuat editable.</div>
+  </div>
+
+  <div class="slide-wrapper">
+    <div class="slide">
+      
+        <span
+          class="text-layer"
+          data-index="1"
+          contenteditable="true"
+          style="
+            left: 5071px;
+            top: 140px;
+            width: 263px;
+            min-height: 364px;
+            font-size: 46px;
+            color: rgb(0, 132, 224);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.0;
+            letter-spacing: 0px;
+            white-space: nowrap;
+          "
+        >pis</span>
+        
+        <span
+          class="text-layer"
+          data-index="2"
+          contenteditable="true"
+          style="
+            left: 290px;
+            top: 225px;
+            width: 2963px;
+            min-height: 284px;
+            font-size: 110px;
+            color: rgb(0, 94, 158);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Ekosistem Inovasi Terintegrasi</span>
+        
+        <span
+          class="text-layer"
+          data-index="3"
+          contenteditable="true"
+          style="
+            left: 3601px;
+            top: 1187px;
+            width: 399px;
+            min-height: 116px;
+            font-size: 83px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Human</span>
+        
+        <span
+          class="text-layer"
+          data-index="4"
+          contenteditable="true"
+          style="
+            left: 1686px;
+            top: 1194px;
+            width: 502px;
+            min-height: 128px;
+            font-size: 92px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Research</span>
+        
+        <span
+          class="text-layer"
+          data-index="5"
+          contenteditable="true"
+          style="
+            left: 2495px;
+            top: 1282px;
+            width: 746px;
+            min-height: 144px;
+            font-size: 103px;
+            color: rgb(200, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Filosofi Sarang</span>
+        
+        <span
+          class="text-layer"
+          data-index="6"
+          contenteditable="true"
+          style="
+            left: 3551px;
+            top: 1302px;
+            width: 495px;
+            min-height: 123px;
+            font-size: 88px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Resource</span>
+        
+        <span
+          class="text-layer"
+          data-index="7"
+          contenteditable="true"
+          style="
+            left: 1751px;
+            top: 1316px;
+            width: 372px;
+            min-height: 117px;
+            font-size: 84px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Center</span>
+        
+        <span
+          class="text-layer"
+          data-index="8"
+          contenteditable="true"
+          style="
+            left: 2705px;
+            top: 1402px;
+            width: 323px;
+            min-height: 112px;
+            font-size: 80px;
+            color: rgb(200, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Lebah</span>
+        
+        <span
+          class="text-layer"
+          data-index="9"
+          contenteditable="true"
+          style="
+            left: 2452px;
+            top: 1507px;
+            width: 829px;
+            min-height: 139px;
+            font-size: 100px;
+            color: rgb(200, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >menghubungkan</span>
+        
+        <span
+          class="text-layer"
+          data-index="10"
+          contenteditable="true"
+          style="
+            left: 2305px;
+            top: 1611px;
+            width: 1125px;
+            min-height: 148px;
+            font-size: 106px;
+            color: rgb(200, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >riset, talenta; teknologi</span>
+        
+        <span
+          class="text-layer"
+          data-index="11"
+          contenteditable="true"
+          style="
+            left: 2439px;
+            top: 1731px;
+            width: 855px;
+            min-height: 136px;
+            font-size: 97px;
+            color: rgb(200, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >dan pasar secara</span>
+        
+        <span
+          class="text-layer"
+          data-index="12"
+          contenteditable="true"
+          style="
+            left: 2620px;
+            top: 1845px;
+            width: 493px;
+            min-height: 112px;
+            font-size: 80px;
+            color: rgb(200, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >harmonis.</span>
+        
+        <span
+          class="text-layer"
+          data-index="13"
+          contenteditable="true"
+          style="
+            left: 1591px;
+            top: 2182px;
+            width: 724px;
+            min-height: 134px;
+            font-size: 96px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Partner lintas</span>
+        
+        <span
+          class="text-layer"
+          data-index="14"
+          contenteditable="true"
+          style="
+            left: 3569px;
+            top: 2243px;
+            width: 463px;
+            min-height: 123px;
+            font-size: 88px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Services</span>
+        
+        <span
+          class="text-layer"
+          data-index="15"
+          contenteditable="true"
+          style="
+            left: 1773px;
+            top: 2306px;
+            width: 350px;
+            min-height: 117px;
+            font-size: 84px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >sektor</span>
+        
+        <span
+          class="text-layer"
+          data-index="16"
+          contenteditable="true"
+          style="
+            left: 1121px;
+            top: 2722px;
+            width: 3495px;
+            min-height: 193px;
+            font-size: 110px;
+            color: rgb(24, 40, 56);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Kolaborasi strategis dengan pemerintah; industri, akademisi;</span>
+        
+        <span
+          class="text-layer"
+          data-index="17"
+          contenteditable="true"
+          style="
+            left: 1700px;
+            top: 2866px;
+            width: 2333px;
+            min-height: 181px;
+            font-size: 110px;
+            color: rgb(24, 40, 56);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >dan startup untuk inovasi berkelanjutan.</span>
+        
+    </div>
+  </div>
+</body>
+</html>

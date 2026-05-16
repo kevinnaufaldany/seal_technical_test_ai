@@ -1,0 +1,344 @@
+[
+  {
+    "text": "pis",
+    "bbox": {
+      "x": 5071,
+      "y": 140,
+      "width": 263,
+      "height": 364
+    },
+    "confidence": 0.8,
+    "raw_points": [],
+    "style": {
+      "font_size": 46,
+      "font_weight": "700",
+      "color": "rgb(0, 132, 224)",
+      "background_color": "transparent",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.0,
+      "letter_spacing": "0px",
+      "white_space": "nowrap"
+    }
+  },
+  {
+    "text": "Ekosistem Inovasi Terintegrasi",
+    "bbox": {
+      "x": 290,
+      "y": 225,
+      "width": 2963,
+      "height": 284
+    },
+    "confidence": 0.7862308655133654,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(0, 94, 158)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Human",
+    "bbox": {
+      "x": 3601,
+      "y": 1187,
+      "width": 399,
+      "height": 116
+    },
+    "confidence": 0.9988134579882808,
+    "raw_points": [],
+    "style": {
+      "font_size": 83,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Research",
+    "bbox": {
+      "x": 1686,
+      "y": 1194,
+      "width": 502,
+      "height": 128
+    },
+    "confidence": 0.9999954481360697,
+    "raw_points": [],
+    "style": {
+      "font_size": 92,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Filosofi Sarang",
+    "bbox": {
+      "x": 2495,
+      "y": 1282,
+      "width": 746,
+      "height": 144
+    },
+    "confidence": 0.9644544796878143,
+    "raw_points": [],
+    "style": {
+      "font_size": 103,
+      "font_weight": "700",
+      "color": "rgb(200, 248, 248)",
+      "background_color": "rgb(8, 104, 200)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Resource",
+    "bbox": {
+      "x": 3551,
+      "y": 1302,
+      "width": 495,
+      "height": 123
+    },
+    "confidence": 0.8829339437222574,
+    "raw_points": [],
+    "style": {
+      "font_size": 88,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Center",
+    "bbox": {
+      "x": 1751,
+      "y": 1316,
+      "width": 372,
+      "height": 117
+    },
+    "confidence": 0.7793098095734514,
+    "raw_points": [],
+    "style": {
+      "font_size": 84,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Lebah",
+    "bbox": {
+      "x": 2705,
+      "y": 1402,
+      "width": 323,
+      "height": 112
+    },
+    "confidence": 0.9905435666984272,
+    "raw_points": [],
+    "style": {
+      "font_size": 80,
+      "font_weight": "700",
+      "color": "rgb(200, 248, 248)",
+      "background_color": "rgb(8, 104, 200)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "menghubungkan",
+    "bbox": {
+      "x": 2452,
+      "y": 1507,
+      "width": 829,
+      "height": 139
+    },
+    "confidence": 0.9999738801867141,
+    "raw_points": [],
+    "style": {
+      "font_size": 100,
+      "font_weight": "700",
+      "color": "rgb(200, 248, 248)",
+      "background_color": "rgb(8, 104, 200)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "riset, talenta; teknologi",
+    "bbox": {
+      "x": 2305,
+      "y": 1611,
+      "width": 1125,
+      "height": 148
+    },
+    "confidence": 0.8632295981739863,
+    "raw_points": [],
+    "style": {
+      "font_size": 106,
+      "font_weight": "700",
+      "color": "rgb(200, 248, 248)",
+      "background_color": "rgb(8, 104, 200)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "dan pasar secara",
+    "bbox": {
+      "x": 2439,
+      "y": 1731,
+      "width": 855,
+      "height": 136
+    },
+    "confidence": 0.9506115225842763,
+    "raw_points": [],
+    "style": {
+      "font_size": 97,
+      "font_weight": "700",
+      "color": "rgb(200, 248, 248)",
+      "background_color": "rgb(8, 104, 200)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "harmonis.",
+    "bbox": {
+      "x": 2620,
+      "y": 1845,
+      "width": 493,
+      "height": 112
+    },
+    "confidence": 0.9217376660674652,
+    "raw_points": [],
+    "style": {
+      "font_size": 80,
+      "font_weight": "700",
+      "color": "rgb(200, 248, 248)",
+      "background_color": "rgb(8, 104, 200)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Partner lintas",
+    "bbox": {
+      "x": 1591,
+      "y": 2182,
+      "width": 724,
+      "height": 134
+    },
+    "confidence": 0.8770162988690137,
+    "raw_points": [],
+    "style": {
+      "font_size": 96,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 104)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Services",
+    "bbox": {
+      "x": 3569,
+      "y": 2243,
+      "width": 463,
+      "height": 123
+    },
+    "confidence": 0.9999672516765934,
+    "raw_points": [],
+    "style": {
+      "font_size": 88,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 104)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "sektor",
+    "bbox": {
+      "x": 1773,
+      "y": 2306,
+      "width": 350,
+      "height": 117
+    },
+    "confidence": 0.9999784891390124,
+    "raw_points": [],
+    "style": {
+      "font_size": 84,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Kolaborasi strategis dengan pemerintah; industri, akademisi;",
+    "bbox": {
+      "x": 1121,
+      "y": 2722,
+      "width": 3495,
+      "height": 193
+    },
+    "confidence": 0.5804780129778861,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(24, 40, 56)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "dan startup untuk inovasi berkelanjutan.",
+    "bbox": {
+      "x": 1700,
+      "y": 2866,
+      "width": 2333,
+      "height": 181
+    },
+    "confidence": 0.8511931115976025,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(24, 40, 56)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  }
+]

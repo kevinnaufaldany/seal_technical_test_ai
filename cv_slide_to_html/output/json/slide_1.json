@@ -1,0 +1,104 @@
+[
+  {
+    "text": "pis",
+    "bbox": {
+      "x": 5157,
+      "y": 123,
+      "width": 259,
+      "height": 349
+    },
+    "confidence": 0.8,
+    "raw_points": [],
+    "style": {
+      "font_size": 46,
+      "font_weight": "700",
+      "color": "rgb(0, 132, 224)",
+      "background_color": "transparent",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.0,
+      "letter_spacing": "0px",
+      "white_space": "nowrap"
+    }
+  },
+  {
+    "text": "Profile Image Studio",
+    "bbox": {
+      "x": 295,
+      "y": 206,
+      "width": 1264,
+      "height": 175
+    },
+    "confidence": 0.9966318509272848,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(255, 255, 255)",
+      "background_color": "rgb(8, 40, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Profile Image",
+    "bbox": {
+      "x": 288,
+      "y": 973,
+      "width": 2479,
+      "height": 468
+    },
+    "confidence": 0.9916225188322327,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(255, 255, 255)",
+      "background_color": "rgb(8, 40, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Studio\nMari Memungkinkan Transformasi",
+    "bbox": {
+      "x": 284,
+      "y": 1361,
+      "width": 2290,
+      "height": 648
+    },
+    "confidence": 0.9963295603676198,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 40, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "center",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Digital Bersama Kami",
+    "bbox": {
+      "x": 297,
+      "y": 1976,
+      "width": 1476,
+      "height": 194
+    },
+    "confidence": 0.5905251977910881,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 40, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  }
+]

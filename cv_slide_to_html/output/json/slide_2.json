@@ -1,0 +1,264 @@
+[
+  {
+    "text": "pis",
+    "bbox": {
+      "x": 4865,
+      "y": 270,
+      "width": 277,
+      "height": 369
+    },
+    "confidence": 0.8,
+    "raw_points": [],
+    "style": {
+      "font_size": 46,
+      "font_weight": "700",
+      "color": "rgb(0, 132, 224)",
+      "background_color": "transparent",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.0,
+      "letter_spacing": "0px",
+      "white_space": "nowrap"
+    }
+  },
+  {
+    "text": "Tentang Perusahaan",
+    "bbox": {
+      "x": 395,
+      "y": 297,
+      "width": 2677,
+      "height": 366
+    },
+    "confidence": 0.9405159398280156,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(0, 94, 158)",
+      "background_color": "rgb(248, 248, 248)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Tim 41 karyawan",
+    "bbox": {
+      "x": 4001,
+      "y": 1745,
+      "width": 1116,
+      "height": 207
+    },
+    "confidence": 0.9456312507453457,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Berdiri 19 Juli 2071",
+    "bbox": {
+      "x": 582,
+      "y": 1747,
+      "width": 1169,
+      "height": 165
+    },
+    "confidence": 0.9429723985453207,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Mengintegrasikan",
+    "bbox": {
+      "x": 2265,
+      "y": 1749,
+      "width": 1199,
+      "height": 187
+    },
+    "confidence": 0.937787352821157,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "profesional muda di",
+    "bbox": {
+      "x": 3889,
+      "y": 1894,
+      "width": 1333,
+      "height": 213
+    },
+    "confidence": 0.9259402742920403,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "desain; riset; dan",
+    "bbox": {
+      "x": 2294,
+      "y": 1898,
+      "width": 1132,
+      "height": 204
+    },
+    "confidence": 0.6538619320253336,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "di Malang, sebagai",
+    "bbox": {
+      "x": 538,
+      "y": 1900,
+      "width": 1252,
+      "height": 205
+    },
+    "confidence": 0.6938322600212374,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "IT, desain; dan",
+    "bbox": {
+      "x": 4077,
+      "y": 2059,
+      "width": 961,
+      "height": 204
+    },
+    "confidence": 0.6512751936112254,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "PT Link Apisindo",
+    "bbox": {
+      "x": 610,
+      "y": 2065,
+      "width": 1115,
+      "height": 208
+    },
+    "confidence": 0.7424906733842447,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 104)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "teknologi mutakhir.",
+    "bbox": {
+      "x": 2201,
+      "y": 2068,
+      "width": 1318,
+      "height": 196
+    },
+    "confidence": 0.9712151080805264,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "videografi.",
+    "bbox": {
+      "x": 4198,
+      "y": 2235,
+      "width": 728,
+      "height": 198
+    },
+    "confidence": 0.9976405249835432,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 88)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  },
+  {
+    "text": "Media.",
+    "bbox": {
+      "x": 941,
+      "y": 2240,
+      "width": 456,
+      "height": 165
+    },
+    "confidence": 0.9948755746606999,
+    "raw_points": [],
+    "style": {
+      "font_size": 110,
+      "font_weight": "700",
+      "color": "rgb(232, 248, 248)",
+      "background_color": "rgb(8, 56, 104)",
+      "font_family": "Arial, sans-serif",
+      "text_align": "left",
+      "line_height": 1.18
+    }
+  }
+]

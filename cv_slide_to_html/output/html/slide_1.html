@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clean Slide HTML</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #111827;
+      font-family: Arial, sans-serif;
+    }
+
+    .toolbar {
+      max-width: 5734px;
+      margin: 0 auto 16px auto;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .toolbar-title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .toolbar-note {
+      font-size: 13px;
+      color: #d1d5db;
+    }
+
+    .slide-wrapper {
+      width: 100%;
+      overflow: auto;
+    }
+
+    .slide {
+      position: relative;
+      width: 5734px;
+      height: 3200px;
+      margin: 0 auto;
+      
+        background-image: url("../../output/backgrounds/slide_1_bg_clean.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .text-layer {
+      position: absolute;
+      display: inline-block;
+      white-space: pre-line;
+      outline: none;
+      z-index: 2;
+      background: transparent;
+    }
+
+    .text-layer:hover {
+      outline: 2px dashed rgba(255, 0, 0, 0.60);
+      cursor: text;
+    }
+
+    .text-layer:focus {
+      outline: 3px solid rgba(59, 130, 246, 0.9);
+      background-color: rgba(255, 255, 255, 0.25);
+      color: inherit;
+    }
+
+    @media (max-width: 5734px) {
+      .slide {
+        transform: scale(calc((100vw - 48px) / 5734));
+        transform-origin: top left;
+        margin: 0;
+      }
+
+      .slide-wrapper {
+        height: calc(3200px * ((100vw - 48px) / 5734));
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <div class="toolbar-title">Editable Slide HTML</div>
+    <div class="toolbar-note">Background dipertahankan, hanya teks yang dibuat editable.</div>
+  </div>
+
+  <div class="slide-wrapper">
+    <div class="slide">
+      
+        <span
+          class="text-layer"
+          data-index="1"
+          contenteditable="true"
+          style="
+            left: 5157px;
+            top: 123px;
+            width: 259px;
+            min-height: 349px;
+            font-size: 46px;
+            color: rgb(0, 132, 224);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.0;
+            letter-spacing: 0px;
+            white-space: nowrap;
+          "
+        >pis</span>
+        
+        <span
+          class="text-layer"
+          data-index="2"
+          contenteditable="true"
+          style="
+            left: 295px;
+            top: 206px;
+            width: 1264px;
+            min-height: 175px;
+            font-size: 110px;
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Profile Image Studio</span>
+        
+        <span
+          class="text-layer"
+          data-index="3"
+          contenteditable="true"
+          style="
+            left: 288px;
+            top: 973px;
+            width: 2479px;
+            min-height: 468px;
+            font-size: 110px;
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Profile Image</span>
+        
+        <span
+          class="text-layer"
+          data-index="4"
+          contenteditable="true"
+          style="
+            left: 284px;
+            top: 1361px;
+            width: 2290px;
+            min-height: 648px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Studio
+Mari Memungkinkan Transformasi</span>
+        
+        <span
+          class="text-layer"
+          data-index="5"
+          contenteditable="true"
+          style="
+            left: 297px;
+            top: 1976px;
+            width: 1476px;
+            min-height: 194px;
+            font-size: 110px;
+            color: rgb(232, 248, 248);
+            font-weight: 700;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            line-height: 1.18;
+            letter-spacing: 0px;
+            white-space: normal;
+          "
+        >Digital Bersama Kami</span>
+        
+    </div>
+  </div>
+</body>
+</html>
