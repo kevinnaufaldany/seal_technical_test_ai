@@ -795,10 +795,11 @@ ollama list
 **Solution:**
 ```bash
 # Reset ChromaDB (WARNING: This deletes all stored documents)
-rm -rf data/chroma
-
+Remove-Item -Recurse -Force data\chroma
+mkdir data\chroma       
 # The system will recreate it on next ingest
 ```
+
 
 ---
 
