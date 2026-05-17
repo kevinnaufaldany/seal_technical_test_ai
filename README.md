@@ -8,8 +8,8 @@ This repository contains submissions for the **AI Engineer Intern Technical Test
 
 ## 📹 Demo & Documentation
 
-- **Demo Video**: [Google Drive Link](https://drive.google.com/...)
-- **Technical Test**: [Google Drive Link](https://drive.google.com/...)
+- **Demo Video**: [YouTube Link](https://drive.google.com/...)
+- **Technical Test**: [Google Drive Link](https://drive.google.com/file/d/14s4mxzA7LyiG2X2BloVRfzTPmGNFzDpc/view)
 
 ---
 
