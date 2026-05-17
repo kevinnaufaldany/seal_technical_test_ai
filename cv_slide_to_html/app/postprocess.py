@@ -75,10 +75,6 @@ def is_noise_block(block: dict, image_width: int, image_height: int) -> bool:
     area = w * h
     confidence = float(block.get("confidence", 0.0))
 
-    # Jangan buang PIS hasil OCR.
-    if lower == "pis":
-        return False
-
     if confidence < 0.30:
         return True
 

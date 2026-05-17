@@ -22,8 +22,7 @@ def is_pis_block(block: dict) -> bool:
 
 def get_mask_bbox_from_block(block: dict, expand_x: int = 8, expand_y: int = 6):
     """
-    Ambil koordinat mask dari raw_points kalau ada.
-    Kalau raw_points kosong, pakai bbox.
+    Ambil koordinat mask dari bbox.
     """
     raw_points = block.get("raw_points", [])
 

@@ -174,7 +174,7 @@ def estimate_text_align(block: dict) -> str:
         return "left"
 
     if "\n" in block["text"]:
-        return "center"
+        return "left"
 
     return "left"
 
@@ -184,14 +184,14 @@ def apply_style_overrides(block: dict, style: dict) -> dict:
 
     if text == "pis":
         bbox = block["bbox"]
-        logo_h = int(bbox["height"])
-        logo_w = int(bbox["width"])
+        # logo_h = int(bbox["height"])
+        # logo_w = int(bbox["width"])
 
         # lebih konservatif supaya tidak meledak
         style["font_size"] = max(style["font_size"], 250)
         style["font_weight"] = "700"
         style["color"] = "rgb(0, 132, 224)"
-        style["text_align"] = "left"
+        style["text_align"] = "center"
         style["background_color"] = "transparent"
         style["font_family"] = "Arial, sans-serif"
         style["line_height"] = 1.0
@@ -199,33 +199,33 @@ def apply_style_overrides(block: dict, style: dict) -> dict:
         style["white_space"] = "nowrap"
 
     elif "portofolio layanan utama" in text:
-        style["font_size"] = max(style["font_size"], 110)
+        style["font_size"] = max(style["font_size"], 200)
         style["font_weight"] = "700"
         style["color"] = "rgb(0, 94, 158)"
-        style["text_align"] = "left"
+        style["text_align"] = "center"
 
     elif "tentang perusahaan" in text:
         style["font_size"] = max(style["font_size"], 110)
         style["font_weight"] = "700"
         style["color"] = "rgb(0, 94, 158)"
-        style["text_align"] = "left"
+        style["text_align"] = "center"
 
     elif "ekosistem inovasi terintegrasi" in text:
         style["font_size"] = max(style["font_size"], 110)
         style["font_weight"] = "700"
         style["color"] = "rgb(0, 94, 158)"
-        style["text_align"] = "left"
+        style["text_align"] = "center"
 
     elif "jangkauan pasar dan kontak" in text:
         style["font_size"] = max(style["font_size"], 110)
         style["font_weight"] = "700"
         style["color"] = "rgb(0, 94, 158)"
-        style["text_align"] = "left"
+        style["text_align"] = "center"
 
     elif text in {"talent development", "cyber security", "cloud computing"}:
         style["font_weight"] = "700"
         style["color"] = "rgb(255, 255, 255)"
-        style["text_align"] = "left"
+        style["text_align"] = "center"
 
     return style
 
