@@ -6,6 +6,13 @@ This repository contains submissions for the **AI Engineer Intern Technical Test
 
 ---
 
+## 📹 Demo & Documentation
+
+- **Demo Video**: [Google Drive Link](https://drive.google.com/...)
+- **Technical Test**: [Google Drive Link](https://drive.google.com/...)
+
+---
+
 ## 📁 Repository Structure
 
 ```
@@ -62,13 +69,6 @@ pip install -r requirements.txt
 python main.py
 ```
 Output: `output/html/` — editable HTML slides
-
----
-
-## 📹 Demo & Documentation
-
-- **Demo Video**: [Google Drive Link](https://drive.google.com/...)
-- **Technical Test**: [Google Drive Link](https://drive.google.com/...)
 
 ---
 
